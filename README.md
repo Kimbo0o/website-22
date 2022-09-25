@@ -1,7 +1,8 @@
-# Nuxt 3 Minimal Starter
+# Personal Website 2022
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+This is my personal website built in 2022 with Nuxt 3 and Tailwind.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c1f9786-26e7-4fe3-b9f9-cf3451d63a48/deploy-status)](https://app.netlify.com/sites/kdk-website-22/deploys)
 ## Setup
 
 Make sure to install the dependencies:
