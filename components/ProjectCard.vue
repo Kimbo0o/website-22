@@ -9,28 +9,28 @@
         {{ props.project.title }}
       </h3>
       <ul class="flex gap-2">
-        <!-- <li v-for="technology in props.project.technologies" :key="technology">
+        <li v-for="technology in props.project.technologies" :key="technology">
           <img
             v-if="technology === Technology.React"
             src="~/assets/react.png"
           />
           <img
             v-else-if="technology === Technology.Next"
-            src="~/assets/Next.png"
+            src="~/assets/next.png"
           />
           <img
             v-else-if="technology === Technology.Redux"
-            src="~/assets/Redux.png"
+            src="~/assets/redux.png"
           />
           <img
             v-else-if="technology === Technology.Sass"
-            src="~/assets/Sass.png"
+            src="~/assets/sass.png"
           />
           <img
             v-else-if="technology === Technology.Tailwindcss"
-            src="~/assets/Tailwind.png"
+            src="~/assets/tailwind.png"
           />
-        </li> -->
+        </li>
       </ul>
       <ul class="flex gap-4">
         <li>
