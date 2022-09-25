@@ -8,7 +8,7 @@
           KD
         </div>
       </NuxtLink>
-      <nav>
+      <nav class="flex items-center gap-4 md:gap-8">
         <HeaderLink to="/">Home</HeaderLink>
         <HeaderLink to="/projects">Projects</HeaderLink>
       </nav>

@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink class="inline-block mx-2 md:mx-4">
+  <NuxtLink class="inline-block">
     <BaseBox class="bg-accent-green">
       <slot />
     </BaseBox>
