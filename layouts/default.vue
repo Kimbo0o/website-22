@@ -1,10 +1,8 @@
 <template>
   <div class="h-screen">
-    <TheHeader class="fixed w-full" />
-    <div class="pt-24 flex flex-col justify-between h-full">
-      <div class="py-8">
-        <slot />
-      </div>
+    <TheHeader class="fixed w-full z-10" />
+    <div class="pt-[4.5rem] md:pt-24 h-full grid grid-rows-[1fr_min-content]">
+      <slot class="justify-self-center" />
       <TheFooter />
     </div>
   </div>

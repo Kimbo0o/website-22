@@ -1,6 +1,6 @@
 <template>
-  <BaseCenter>
-    <main class="flex items-center justify-center gap-16">
+  <BaseCenter class="h-full">
+    <main class="py-8 flex items-center justify-center gap-16 h-full">
       <div class="flex flex-col items-center lg:items-start">
         <div>
           <div>Hello there, I'm</div>
