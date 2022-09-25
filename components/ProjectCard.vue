@@ -4,19 +4,37 @@
       <img
         :src="props.project.imageUrl"
         class="rounded-b border-black border-l-[3px] border-b-[3px] border-r-[3px] shadow-sm"
+        alt="Project Preview"
       />
       <h3 class="font-gothic font-medium text-2xl">
         {{ props.project.title }}
       </h3>
       <ul class="flex gap-2">
         <li v-for="technology in props.project.technologies" :key="technology">
-          <img v-if="technology === Technology.React" src="/react.png" />
-          <img v-else-if="technology === Technology.Next" src="/next.png" />
-          <img v-else-if="technology === Technology.Redux" src="/redux.png" />
-          <img v-else-if="technology === Technology.Sass" src="/sass.png" />
+          <img
+            v-if="technology === Technology.React"
+            src="/react.png"
+            alt="React"
+          />
+          <img
+            v-else-if="technology === Technology.Next"
+            src="/next.png"
+            alt="Next.js"
+          />
+          <img
+            v-else-if="technology === Technology.Redux"
+            src="/redux.png"
+            alt="Redux"
+          />
+          <img
+            v-else-if="technology === Technology.Sass"
+            src="/sass.png"
+            alt="Sass"
+          />
           <img
             v-else-if="technology === Technology.Tailwindcss"
             src="/tailwind.png"
+            alt="Tailwindcss"
           />
         </li>
       </ul>

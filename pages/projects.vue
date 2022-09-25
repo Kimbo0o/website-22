@@ -2,7 +2,7 @@
   <BaseCenter>
     <div class="py-8">
       <h1 class="font-gothic font-medium text-5xl">Recent Projects</h1>
-      <img src="~/assets/underline-projects.svg" class="mt-2" />
+      <img src="~/assets/underline-projects.svg" class="mt-2" alt="" />
       <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
         <ProjectCard
           v-for="project in projects"

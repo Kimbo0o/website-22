@@ -11,16 +11,16 @@
       </div>
       <BaseBox class="bg-accent-orange flex gap-4 py-4">
         <a href="https://github.com/Kimbo0o">
-          <img src="~/assets/github.svg" />
+          <img src="~/assets/github.svg" alt="GitHub" />
         </a>
         <a href="https://www.linkedin.com/in/kim-daniel-koch-5785ab191/">
-          <img src="~/assets/linkedin.svg" />
+          <img src="~/assets/linkedin.svg" alt="LinkedIn" />
         </a>
         <a href="https://twitter.com/KimDanielKoch">
-          <img src="~/assets/twitter.svg" />
+          <img src="~/assets/twitter.svg" alt="Twitter" />
         </a>
         <a href="mailto:contact@kimdanielkoch.de">
-          <img src="~/assets/mail.svg" />
+          <img src="~/assets/mail.svg" alt="E-Mail" />
         </a>
       </BaseBox>
     </BaseCenter>

@@ -14,14 +14,16 @@
             <img
               src="~/assets/underline1.svg"
               class="absolute left-0 top-[4.5rem]"
+              alt=""
             />
             <img
               src="~/assets/underline2.svg"
               class="absolute left-0 bottom-1"
+              alt=""
             />
           </div>
         </div>
-        <img class="mt-6 lg:hidden" src="~/assets/hero.png" />
+        <img class="mt-6 lg:hidden" src="~/assets/hero.png" alt="hero-image" />
         <div class="mt-4">
           I am a <b>Web Developer</b> from <b>Paderborn, Germany</b>. I work as
           a Frontend Developer at <b>enra GmbH</b> where I mainly use
@@ -35,13 +37,13 @@
         </div>
 
         <div class="flex gap-6 w-full justify-center mt-12">
-          <img src="~/assets/hello-arrow.svg" />
+          <img src="~/assets/hello-arrow.svg" alt="" />
           <a href="mailto:contact@kimdanielkoch.de" class="inline-block">
             <BaseBox class="bg-accent-green -rotate-3">Say Hello!</BaseBox>
           </a>
         </div>
       </div>
-      <img class="hidden lg:block" src="~/assets/hero.png" />
+      <img class="hidden lg:block" src="~/assets/hero.png" alt="hero-image" />
     </main>
   </BaseCenter>
 </template>

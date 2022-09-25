@@ -17,7 +17,7 @@ body {
 <script lang="ts" setup>
 useHead({
   title: "Kim Daniel Koch",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+  viewport: "width=device-width, initial-scale=1",
   charset: "utf-8",
   htmlAttrs: {
     lang: "en",
