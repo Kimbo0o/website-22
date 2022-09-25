@@ -24,7 +24,7 @@
           </div>
         </div>
         <img class="mt-6 lg:hidden" src="~/assets/hero.png" alt="hero-image" />
-        <div class="mt-4">
+        <p class="mt-4">
           I am a <b>Web Developer</b> from <b>Paderborn, Germany</b>. I work as
           a Frontend Developer at <b>enra GmbH</b> where I mainly use
           <b>Vue.js, Tailwind CSS, TypeScript</b> and <b>GraphQL</b> to build
@@ -34,7 +34,7 @@
           what I love the most about Programming. I also like to ride bikes and
           listen to Podcasts. My current favorites are Syntax. and
           programmier.bar.
-        </div>
+        </p>
 
         <div class="flex gap-6 w-full justify-center mt-12">
           <img src="~/assets/hello-arrow.svg" alt="" />
