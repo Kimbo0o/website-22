@@ -3,6 +3,7 @@
 
 This is my personal website built with Nuxt 3 and Tailwind.
 
+[Link](https://kimdaniekoch.de)
 ## Setup
 
 Make sure to install the dependencies:
