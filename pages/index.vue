@@ -6,19 +6,19 @@
           <div>Hello there, I'm</div>
           <div class="relative">
             <h1
-              class="my-2 font-fancy text-7xl font-bold uppercase leading-tight"
+              class="my-2 font-fancy font-bold uppercase !leading-tight text-5xl md:text-7xl"
             >
               Kim Daniel <br />
               Koch
             </h1>
             <img
               src="~/assets/underline1.svg"
-              class="absolute left-0 top-[4.5rem]"
+              class="absolute left-0 top-[2.9rem] md:top-[4.5rem]"
               alt=""
             />
             <img
               src="~/assets/underline2.svg"
-              class="absolute left-0 bottom-1"
+              class="absolute left-0 bottom-[0.15rem] md:bottom-1"
               alt=""
             />
           </div>
