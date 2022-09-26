@@ -31,7 +31,7 @@
           great user experiences.<br />
           In my free time I like to tinker with new technologies and web
           frameworks. Being able to always have a new challenge that needs to be
-          solved is what I love the most about Programming. I also like to ride
+          solved is what I love the most about programming. I also like to ride
           bikes and listen to Podcasts. My current favorite Podcasts are
           <b>Syntax.</b> and <b>programmier.bar</b>.
         </p>
