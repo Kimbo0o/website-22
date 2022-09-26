@@ -25,8 +25,8 @@
         </div>
         <img class="mt-6 lg:hidden" src="~/assets/hero.png" alt="hero-image" />
         <p class="mt-4">
-          I am a <b>Web Developer</b> from <b>Paderborn, Germany</b>. I work as
-          a <b>Frontend Developer</b> at <b>enra GmbH</b> where I mainly use
+          I am a <b>Frontend Developer</b> from <b>Paderborn, Germany</b>. I
+          work at <b>enra GmbH</b> where I mainly use
           <b>Vue.js, Tailwind CSS, TypeScript</b> and <b>GraphQL</b> to build
           great user experiences.<br />
           In my free time I like to tinker with new technologies and web
