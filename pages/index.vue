@@ -23,7 +23,11 @@
             />
           </div>
         </div>
-        <img class="mt-6 lg:hidden" src="~/assets/hero.png" alt="hero-image" />
+        <img
+          class="mt-6 lg:hidden"
+          srcset="~/assets/hero.png 1x, ~/assets/hero2x.png 2x"
+          alt="hero-image"
+        />
         <p class="mt-4">
           I am a <b>Frontend Developer</b> from <b>Paderborn, Germany</b>. I
           work at <b>enra GmbH</b> where I mainly use
