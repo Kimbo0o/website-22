@@ -23,6 +23,7 @@ const projects: Project[] = [
     technologies: [Technology.React, Technology.Redux, Technology.Sass],
     githubUrl: "https://github.com/Kimbo0o/pomodoro-timer-pwa",
     demoUrl: "https://kk-pomodoro.netlify.app/",
+    hoverShadowClass: "hover:shadow-pink-500",
   },
   {
     imageUrl: "/iptracker.png",
@@ -30,6 +31,7 @@ const projects: Project[] = [
     technologies: [Technology.React, Technology.Next, Technology.Sass],
     githubUrl: "https://github.com/Kimbo0o/ip-address-tracker",
     demoUrl: "https://ip-tracker.kimdanielkoch.de/",
+    hoverShadowClass: "hover:shadow-blue-600",
   },
   {
     imageUrl: "/chatapp.png",
@@ -37,6 +39,7 @@ const projects: Project[] = [
     technologies: [Technology.React, Technology.Tailwindcss],
     githubUrl: "https://github.com/Kimbo0o/chat-app-illustration",
     demoUrl: "https://kk-chat-app-illustration.netlify.app/",
+    hoverShadowClass: "hover:shadow-purple-600",
   },
 ];
 </script>
