@@ -59,5 +59,13 @@ useHead({
   //     defer: true,
   //   },
   // ],
+  script: [
+    {
+      src: "https://ackee-production-2712.up.railway.app/tracker.js",
+      async: true,
+      "data-ackee-server": "https://ackee-production-2712.up.railway.app",
+      "data-domain-id": "d8a2cbc0-28ca-4d38-b970-b1b5986cd72b",
+    },
+  ],
 });
 </script>
