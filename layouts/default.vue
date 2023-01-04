@@ -51,13 +51,13 @@ useHead({
       content: "website",
     },
   ],
-  script: [
-    {
-      src: "https://umami-production-a9ba.up.railway.app/umami.js",
-      async: true,
-      "data-website-id": "c6595031-ae81-442a-a870-0c1c59256ffa",
-      defer: true,
-    },
-  ],
+  // script: [
+  //   {
+  //     src: "https://umami-production-a9ba.up.railway.app/umami.js",
+  //     async: true,
+  //     "data-website-id": "c6595031-ae81-442a-a870-0c1c59256ffa",
+  //     defer: true,
+  //   },
+  // ],
 });
 </script>
