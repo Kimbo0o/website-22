@@ -18,6 +18,14 @@
 import { Project, Technology } from "~~/components/ProjectCard.vue";
 const projects: Project[] = [
   {
+    imageUrl: "/3d_room.jpeg",
+    title: "3D Room",
+    technologies: [Technology.React, Technology.Tailwindcss],
+    githubUrl: "https://github.com/Kimbo0o/drei",
+    demoUrl: "https://drei.kimdanielkoch.de/",
+    hoverShadowClass: "hover:shadow-red-500",
+  },
+  {
     imageUrl: "/pomodoro.png",
     title: "Pomodoro Timer",
     technologies: [Technology.React, Technology.Redux, Technology.Sass],

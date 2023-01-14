@@ -50,6 +50,7 @@
             <a
               class="font-gothic flex items-center gap-2"
               :href="props.project.githubUrl"
+              target="_blank"
             >
               <span> GitHub </span>
               <ArrowTopRightOnSquareIcon class="w-4 h-4" />
@@ -59,6 +60,7 @@
             <a
               class="font-gothic flex items-center gap-2"
               :href="props.project.demoUrl"
+              target="_blank"
             >
               <span> Demo </span>
               <ArrowTopRightOnSquareIcon class="w-4 h-4" />
@@ -87,7 +89,8 @@ export type Project = {
   hoverShadowClass:
     | "hover:shadow-pink-500"
     | "hover:shadow-blue-600"
-    | "hover:shadow-purple-600";
+    | "hover:shadow-purple-600"
+    | "hover:shadow-red-500";
 };
 </script>
 
