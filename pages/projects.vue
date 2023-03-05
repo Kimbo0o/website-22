@@ -20,7 +20,11 @@ const projects: Project[] = [
   {
     imageUrl: "/3d_room.jpeg",
     title: "3D Room",
-    technologies: [Technology.React, Technology.Tailwindcss],
+    technologies: [
+      Technology.ThreeJS,
+      Technology.React,
+      Technology.Tailwindcss,
+    ],
     githubUrl: "https://github.com/Kimbo0o/drei",
     demoUrl: "https://drei.kimdanielkoch.de/",
     hoverShadowClass: "hover:shadow-red-500",

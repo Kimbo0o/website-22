@@ -3,7 +3,7 @@
     class="bg-white border-black border-[3px] rounded shadow-bold transition-all hover:-translate-y-2 ease-in-out duration-300"
     :class="props.project.hoverShadowClass"
   >
-    <a :href="props.project.demoUrl">
+    <a :href="props.project.demoUrl" target="_blank">
       <div class="flex flex-col items-center gap-2 mb-4">
         <img
           :src="props.project.imageUrl"
@@ -20,28 +20,40 @@
           >
             <img
               v-if="technology === Technology.React"
+              title="React"
               src="/react.png"
               alt="React"
             />
             <img
               v-else-if="technology === Technology.Next"
+              title="Next.js"
               src="/next.png"
               alt="Next.js"
             />
             <img
               v-else-if="technology === Technology.Redux"
+              title="Redux"
               src="/redux.png"
               alt="Redux"
             />
             <img
               v-else-if="technology === Technology.Sass"
+              title="Sass"
               src="/sass.png"
               alt="Sass"
             />
             <img
               v-else-if="technology === Technology.Tailwindcss"
+              title="Tailwindcss"
               src="/tailwind.png"
               alt="Tailwindcss"
+            />
+            <img
+              v-if="technology === Technology.ThreeJS"
+              title="ThreeJS"
+              src="/threejs.svg"
+              alt="ThreeJS"
+              class="w-6 h-6"
             />
           </li>
         </ul>
@@ -79,6 +91,7 @@ export enum Technology {
   Sass,
   Next,
   Tailwindcss,
+  ThreeJS,
 }
 export type Project = {
   imageUrl: string;
