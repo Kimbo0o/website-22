@@ -25,8 +25,11 @@
         </div>
         <img
           class="mt-6 lg:hidden"
-          srcset="~/assets/hero.png 1x, ~/assets/hero2x.png 2x"
-          alt="hero-image"
+          srcset="
+            ~/assets/profile-image.png    1x,
+            ~/assets/profile-image@2x.png 2x
+          "
+          alt="profile-image"
         />
         <p class="mt-4">
           I am a <b>Frontend Developer</b> from <b>Paderborn, Germany</b>. I
@@ -47,7 +50,11 @@
           </a>
         </div>
       </div>
-      <img class="hidden lg:block" src="~/assets/hero.png" alt="hero-image" />
+      <img
+        class="hidden lg:block"
+        srcset="~/assets/profile-image.png 1x, ~/assets/profile-image@2x.png 2x"
+        alt="profile-image"
+      />
     </main>
   </BaseCenter>
 </template>
