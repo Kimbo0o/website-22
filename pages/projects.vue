@@ -30,6 +30,13 @@ const projects: Project[] = [
     hoverShadowClass: "hover:shadow-red-500",
   },
   {
+    imageUrl: "/svg-viewer.png",
+    title: "SVG Preview",
+    technologies: [Technology.Tauri, Technology.Vue, Technology.Tailwindcss],
+    githubUrl: "https://github.com/Kimbo0o/svg-preview",
+    hoverShadowClass: "hover:shadow-blue-600",
+  },
+  {
     imageUrl: "/pomodoro.png",
     title: "Pomodoro Timer",
     technologies: [Technology.React, Technology.Redux, Technology.Sass],

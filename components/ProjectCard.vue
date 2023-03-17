@@ -3,7 +3,7 @@
     class="bg-white border-black border-[3px] rounded shadow-bold transition-all hover:-translate-y-2 ease-in-out duration-300"
     :class="props.project.hoverShadowClass"
   >
-    <a :href="props.project.demoUrl" target="_blank">
+    <a :href="props.project.demoUrl || props.project.githubUrl" target="_blank">
       <div class="flex flex-col items-center gap-2 mb-4">
         <img
           :src="props.project.imageUrl"
@@ -49,10 +49,24 @@
               alt="Tailwindcss"
             />
             <img
-              v-if="technology === Technology.ThreeJS"
+              v-else-if="technology === Technology.ThreeJS"
               title="ThreeJS"
               src="/threejs.svg"
               alt="ThreeJS"
+              class="w-6 h-6"
+            />
+            <img
+              v-else-if="technology === Technology.Vue"
+              title="Vue.js"
+              src="/vue.svg"
+              alt="Vue.js"
+              class="w-6 h-6"
+            />
+            <img
+              v-else-if="technology === Technology.Tauri"
+              title="Tauri"
+              src="/tauri.svg"
+              alt="Tauri"
               class="w-6 h-6"
             />
           </li>
@@ -68,7 +82,7 @@
               <ArrowTopRightOnSquareIcon class="w-4 h-4" />
             </a>
           </li>
-          <li>
+          <li v-if="props.project.demoUrl">
             <a
               class="font-gothic flex items-center gap-2"
               :href="props.project.demoUrl"
@@ -92,13 +106,15 @@ export enum Technology {
   Next,
   Tailwindcss,
   ThreeJS,
+  Vue,
+  Tauri,
 }
 export type Project = {
   imageUrl: string;
   title: string;
   technologies: Technology[];
   githubUrl: string;
-  demoUrl: string;
+  demoUrl?: string;
   hoverShadowClass:
     | "hover:shadow-pink-500"
     | "hover:shadow-blue-600"
