@@ -32,15 +32,13 @@
           alt="profile-image"
         />
         <p class="mt-4">
-          I am a <b>Frontend Developer</b> from <b>Paderborn, Germany</b>. I
-          work at <b>enra GmbH</b> where I mainly use
-          <b>Vue.js, Tailwind CSS, TypeScript</b> and <b>GraphQL</b> to build
-          great user experiences.<br />
-          In my free time I like to tinker with new technologies and web
-          frameworks. Being able to always have a new challenge that needs to be
-          solved is what I love the most about programming. I also like to ride
-          bikes and listen to Podcasts. My current favorite Podcasts are
-          <b>Syntax.</b> and <b>programmier.bar</b>.
+          I am a <b>frontend focused Software Developer</b> from
+          <b>Paderborn, Germany</b>. In my free time I like to tinker with new
+          technologies and web frameworks. Being able to always have a new
+          challenge that needs to be solved is what I love the most about
+          programming. I also like to ride bikes and listen to Podcasts. My
+          current favorite Podcasts are <b>Syntax.</b> and
+          <b>programmier.bar</b>.
         </p>
 
         <div class="flex gap-6 w-full justify-center mt-12">
