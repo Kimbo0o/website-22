@@ -18,6 +18,14 @@
 import { Project, Technology } from "~~/components/ProjectCard.vue";
 const projects: Project[] = [
   {
+    imageUrl: "/pillow.jpg",
+    title: "Pillow",
+    technologies: [Technology.Vue, Technology.Tailwindcss],
+    githubUrl: "https://github.com/Kimbo0o/pillow",
+    demoUrl: "https://pillow.kimdanielkoch.de/",
+    hoverShadowClass: "hover:shadow-blue-600",
+  },
+  {
     imageUrl: "/3d_room.jpeg",
     title: "3D Room",
     technologies: [
